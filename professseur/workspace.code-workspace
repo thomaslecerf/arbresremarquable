@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\OneDrive\\Documents\\GitHub\\fanpage"
+		},
+		{
+			"path": "..\\Nouveau dossier"
+		},
+		{
+			"path": "..\\Page jaune"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Page jaune"
+	}
+}

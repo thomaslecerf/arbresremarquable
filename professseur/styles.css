@@ -1,0 +1,182 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+.konoha {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("karte-station-velib.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.mokuton {
+    position: absolute;
+    bottom: 250px;
+    width: 5%;
+    left: 70px;
+}
+
+.mokuton2 {
+    position: absolute;
+    bottom: 250px;
+    width: 5%;
+    left: 140px;
+}
+
+.mokuton2:hover {
+    -ms-transform: scale(1.5); /* IE 9 /
+    -webkit-transform: scale(1.5); / Safari 3-8 */
+    transform: scale(1.5);
+}
+
+
+
+.mokuton:hover {
+    -ms-transform: scale(1.5); /* IE 9 /
+    -webkit-transform: scale(1.5); / Safari 3-8 */
+    transform: scale(1.5);
+}
+
+.neiji {
+    position: absolute;
+    bottom: 428px;
+    right: 150px;
+    width: 5%;
+}
+
+
+.icon {
+    margin-top: 21%;
+    margin-left: 28%;
+    width: 5%;
+}
+
+.icon:hover {
+    -ms-transform: scale(1.5); /* IE 9 /
+    -webkit-transform: scale(1.5); / Safari 3-8 */
+    transform: scale(1.5);
+}
+
+
+.infos{
+    display: none;
+
+}
+
+
+.mokuton:hover + .infos {
+    position: absolute;
+    display: block;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 0px;
+    width: 10vw;
+
+}
+
+
+
+.mokuton2:hover + .infos {
+    position: absolute;
+    display: block;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 0px;
+    width: 10vw;
+
+}
+
+
+
+.icon:hover + .infos {
+    position: absolute;
+    display: block;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 0px;
+    width: 10vw;
+
+}
+
+.neiji:hover + .infos {
+    position: absolute;
+    display: block;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 0px;
+    width: 10vw;
+
+}
+
+
+.neiji:hover {
+    -ms-transform: scale(1.5); /* IE 9 /
+    -webkit-transform: scale(1.5); / Safari 3-8 */
+    transform: scale(1.5);
+}
+
+#sasuke{
+
+    position: absolute;
+    left: 140px;
+    top: 30%;
+}
+
+#infos1
+{
+    position: absolute;
+    left: 250px;
+    top: 30%;
+}
+
+
+#infos2
+{
+    left: 55%;
+    top:  30%;
+
+}
+
+#infos3 {
+
+    left: 82%;
+    top: 45%;
+
+}
+
+
+#infos4 {
+
+    position: absolute;
+    top: 100px;
+    left: 250px
+}
+
+#infos5 {
+    position: absolute;
+    left: 1100px;
+    top: 20px;
+}
+
+#infos6 {
+
+    position: absolute;
+    top: 500px;
+    left: 6%;
+}
